@@ -1,0 +1,82 @@
+* {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+section {
+    width: 100vw;
+    height: 100vh;
+}
+h1 {
+    font-size: 30px;
+    width: 350px;
+    padding: 20px 30px;
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    color: black;
+}
+h3 {
+    font-size: 20px;
+    color: black;
+}
+.textos {
+    margin-top: 90px;
+    .t1 {
+        background-color: black;
+    }
+    .t2 {
+        background-color: red;
+    }
+}
+#bgr1 {
+    display: flex;
+    justify-content: center;
+    background: url(src/img/capa.jpg) fixed no-repeat;
+    background-size: cover;
+}
+#bgr2 {
+    background: url(src/img/img1.jpg) fixed no-repeat;
+    background-size: cover;
+}
+#elenco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    padding-left: 250px;
+    text-align: justify;
+}
+.imgs {
+    margin-bottom: 100px;
+}
+#sinopse {
+    height: 400px;
+    display: grid;
+    place-items: center;
+    margin-left: -50px;
+    .sinopsetxt {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}
+#sinopse p {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+#sinopse a {
+    width: 200px;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
